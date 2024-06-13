@@ -1,0 +1,19 @@
+GET http://localhost:3000/catch
+
+###
+
+POST http://localhost:3000/release
+Content-Type: application/json
+
+{
+    "name": "pokemon name"
+}
+
+###
+
+PUT http://localhost:3000/rename
+Content-Type: application/json
+
+{
+    "name": "pokemon name"
+}
